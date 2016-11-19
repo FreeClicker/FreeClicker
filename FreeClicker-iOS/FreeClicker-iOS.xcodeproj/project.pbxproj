@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		494CB9B81DE119A600631F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CB9B71DE119A600631F3D /* AppDelegate.swift */; };
+		494CB9BA1DE119A600631F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CB9B91DE119A600631F3D /* ViewController.swift */; };
+		494CB9BD1DE119A600631F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494CB9BB1DE119A600631F3D /* Main.storyboard */; };
+		494CB9BF1DE119A600631F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494CB9BE1DE119A600631F3D /* Assets.xcassets */; };
+		494CB9C21DE119A600631F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494CB9C01DE119A600631F3D /* LaunchScreen.storyboard */; };
+		494CB9CD1DE119A600631F3D /* FreeClicker_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CB9CC1DE119A600631F3D /* FreeClicker_iOSTests.swift */; };
+		494CB9D81DE119A600631F3D /* FreeClicker_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CB9D71DE119A600631F3D /* FreeClicker_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		494CB9C91DE119A600631F3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494CB9AC1DE119A500631F3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494CB9B31DE119A500631F3D;
+			remoteInfo = "FreeClicker-iOS";
+		};
+		494CB9D41DE119A600631F3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494CB9AC1DE119A500631F3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494CB9B31DE119A500631F3D;
+			remoteInfo = "FreeClicker-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		494CB9B41DE119A600631F3D /* FreeClicker-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FreeClicker-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494CB9B71DE119A600631F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		494CB9B91DE119A600631F3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		494CB9BC1DE119A600631F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		494CB9BE1DE119A600631F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		494CB9C11DE119A600631F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		494CB9C31DE119A600631F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494CB9C81DE119A600631F3D /* FreeClicker-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FreeClicker-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494CB9CC1DE119A600631F3D /* FreeClicker_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeClicker_iOSTests.swift; sourceTree = "<group>"; };
+		494CB9CE1DE119A600631F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494CB9D31DE119A600631F3D /* FreeClicker-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FreeClicker-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494CB9D71DE119A600631F3D /* FreeClicker_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeClicker_iOSUITests.swift; sourceTree = "<group>"; };
+		494CB9D91DE119A600631F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494CB9B11DE119A500631F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494CB9C51DE119A600631F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494CB9D01DE119A600631F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		494CB9AB1DE119A500631F3D = {
+			isa = PBXGroup;
+			children = (
+				494CB9B61DE119A600631F3D /* FreeClicker-iOS */,
+				494CB9CB1DE119A600631F3D /* FreeClicker-iOSTests */,
+				494CB9D61DE119A600631F3D /* FreeClicker-iOSUITests */,
+				494CB9B51DE119A600631F3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		494CB9B51DE119A600631F3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				494CB9B41DE119A600631F3D /* FreeClicker-iOS.app */,
+				494CB9C81DE119A600631F3D /* FreeClicker-iOSTests.xctest */,
+				494CB9D31DE119A600631F3D /* FreeClicker-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		494CB9B61DE119A600631F3D /* FreeClicker-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				494CB9B71DE119A600631F3D /* AppDelegate.swift */,
+				494CB9B91DE119A600631F3D /* ViewController.swift */,
+				494CB9BB1DE119A600631F3D /* Main.storyboard */,
+				494CB9BE1DE119A600631F3D /* Assets.xcassets */,
+				494CB9C01DE119A600631F3D /* LaunchScreen.storyboard */,
+				494CB9C31DE119A600631F3D /* Info.plist */,
+			);
+			path = "FreeClicker-iOS";
+			sourceTree = "<group>";
+		};
+		494CB9CB1DE119A600631F3D /* FreeClicker-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				494CB9CC1DE119A600631F3D /* FreeClicker_iOSTests.swift */,
+				494CB9CE1DE119A600631F3D /* Info.plist */,
+			);
+			path = "FreeClicker-iOSTests";
+			sourceTree = "<group>";
+		};
+		494CB9D61DE119A600631F3D /* FreeClicker-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				494CB9D71DE119A600631F3D /* FreeClicker_iOSUITests.swift */,
+				494CB9D91DE119A600631F3D /* Info.plist */,
+			);
+			path = "FreeClicker-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		494CB9B31DE119A500631F3D /* FreeClicker-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494CB9DC1DE119A600631F3D /* Build configuration list for PBXNativeTarget "FreeClicker-iOS" */;
+			buildPhases = (
+				494CB9B01DE119A500631F3D /* Sources */,
+				494CB9B11DE119A500631F3D /* Frameworks */,
+				494CB9B21DE119A500631F3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FreeClicker-iOS";
+			productName = "FreeClicker-iOS";
+			productReference = 494CB9B41DE119A600631F3D /* FreeClicker-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		494CB9C71DE119A600631F3D /* FreeClicker-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494CB9DF1DE119A600631F3D /* Build configuration list for PBXNativeTarget "FreeClicker-iOSTests" */;
+			buildPhases = (
+				494CB9C41DE119A600631F3D /* Sources */,
+				494CB9C51DE119A600631F3D /* Frameworks */,
+				494CB9C61DE119A600631F3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494CB9CA1DE119A600631F3D /* PBXTargetDependency */,
+			);
+			name = "FreeClicker-iOSTests";
+			productName = "FreeClicker-iOSTests";
+			productReference = 494CB9C81DE119A600631F3D /* FreeClicker-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		494CB9D21DE119A600631F3D /* FreeClicker-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494CB9E21DE119A600631F3D /* Build configuration list for PBXNativeTarget "FreeClicker-iOSUITests" */;
+			buildPhases = (
+				494CB9CF1DE119A600631F3D /* Sources */,
+				494CB9D01DE119A600631F3D /* Frameworks */,
+				494CB9D11DE119A600631F3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494CB9D51DE119A600631F3D /* PBXTargetDependency */,
+			);
+			name = "FreeClicker-iOSUITests";
+			productName = "FreeClicker-iOSUITests";
+			productReference = 494CB9D31DE119A600631F3D /* FreeClicker-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		494CB9AC1DE119A500631F3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Andrew Arpasi";
+				TargetAttributes = {
+					494CB9B31DE119A500631F3D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NJKXF7XV99;
+						ProvisioningStyle = Automatic;
+					};
+					494CB9C71DE119A600631F3D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NJKXF7XV99;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 494CB9B31DE119A500631F3D;
+					};
+					494CB9D21DE119A600631F3D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NJKXF7XV99;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 494CB9B31DE119A500631F3D;
+					};
+				};
+			};
+			buildConfigurationList = 494CB9AF1DE119A500631F3D /* Build configuration list for PBXProject "FreeClicker-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 494CB9AB1DE119A500631F3D;
+			productRefGroup = 494CB9B51DE119A600631F3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				494CB9B31DE119A500631F3D /* FreeClicker-iOS */,
+				494CB9C71DE119A600631F3D /* FreeClicker-iOSTests */,
+				494CB9D21DE119A600631F3D /* FreeClicker-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		494CB9B21DE119A500631F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494CB9C21DE119A600631F3D /* LaunchScreen.storyboard in Resources */,
+				494CB9BF1DE119A600631F3D /* Assets.xcassets in Resources */,
+				494CB9BD1DE119A600631F3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494CB9C61DE119A600631F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494CB9D11DE119A600631F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		494CB9B01DE119A500631F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494CB9BA1DE119A600631F3D /* ViewController.swift in Sources */,
+				494CB9B81DE119A600631F3D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494CB9C41DE119A600631F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494CB9CD1DE119A600631F3D /* FreeClicker_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494CB9CF1DE119A600631F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494CB9D81DE119A600631F3D /* FreeClicker_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		494CB9CA1DE119A600631F3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494CB9B31DE119A500631F3D /* FreeClicker-iOS */;
+			targetProxy = 494CB9C91DE119A600631F3D /* PBXContainerItemProxy */;
+		};
+		494CB9D51DE119A600631F3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494CB9B31DE119A500631F3D /* FreeClicker-iOS */;
+			targetProxy = 494CB9D41DE119A600631F3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		494CB9BB1DE119A600631F3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494CB9BC1DE119A600631F3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		494CB9C01DE119A600631F3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494CB9C11DE119A600631F3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		494CB9DA1DE119A600631F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		494CB9DB1DE119A600631F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		494CB9DD1DE119A600631F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NJKXF7XV99;
+				INFOPLIST_FILE = "FreeClicker-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aarpasi.FreeClicker-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		494CB9DE1DE119A600631F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NJKXF7XV99;
+				INFOPLIST_FILE = "FreeClicker-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aarpasi.FreeClicker-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		494CB9E01DE119A600631F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NJKXF7XV99;
+				INFOPLIST_FILE = "FreeClicker-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aarpasi.FreeClicker-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeClicker-iOS.app/FreeClicker-iOS";
+			};
+			name = Debug;
+		};
+		494CB9E11DE119A600631F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NJKXF7XV99;
+				INFOPLIST_FILE = "FreeClicker-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aarpasi.FreeClicker-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeClicker-iOS.app/FreeClicker-iOS";
+			};
+			name = Release;
+		};
+		494CB9E31DE119A600631F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NJKXF7XV99;
+				INFOPLIST_FILE = "FreeClicker-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aarpasi.FreeClicker-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FreeClicker-iOS";
+			};
+			name = Debug;
+		};
+		494CB9E41DE119A600631F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NJKXF7XV99;
+				INFOPLIST_FILE = "FreeClicker-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aarpasi.FreeClicker-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FreeClicker-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		494CB9AF1DE119A500631F3D /* Build configuration list for PBXProject "FreeClicker-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494CB9DA1DE119A600631F3D /* Debug */,
+				494CB9DB1DE119A600631F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494CB9DC1DE119A600631F3D /* Build configuration list for PBXNativeTarget "FreeClicker-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494CB9DD1DE119A600631F3D /* Debug */,
+				494CB9DE1DE119A600631F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		494CB9DF1DE119A600631F3D /* Build configuration list for PBXNativeTarget "FreeClicker-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494CB9E01DE119A600631F3D /* Debug */,
+				494CB9E11DE119A600631F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		494CB9E21DE119A600631F3D /* Build configuration list for PBXNativeTarget "FreeClicker-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494CB9E31DE119A600631F3D /* Debug */,
+				494CB9E41DE119A600631F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 494CB9AC1DE119A500631F3D /* Project object */;
+}
