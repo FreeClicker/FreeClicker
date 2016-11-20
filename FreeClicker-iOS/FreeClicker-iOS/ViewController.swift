@@ -27,12 +27,12 @@ class ViewController: UIViewController, QRCodeReaderViewControllerDelegate {
         let json = JSON(data)
         let representation = json.rawString()
         print("json raw string: " + representation!)
-        Utilities.performTextBasedRequestToServer(route: "/answer/", method: "POST", body: representation!, callback: { data, response, error in
+        /*Utilities.performTextBasedRequestToServer(route: "/answer/", method: "POST", body: representation!, callback: { data, response, error in
             let responseString = String(data: data!, encoding: String.Encoding.utf8)
             if(responseString != nil) {
                 print("rs: " + responseString!)
             }
-        })
+        })*/
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -77,9 +77,19 @@ class ViewController: UIViewController, QRCodeReaderViewControllerDelegate {
             let room = jsonDict?["room"]
             let ip = jsonDict?["ip"]
             let port = jsonDict?["port"]
+            
+            let data = ["test":"test"] as [String: Any?]
+            let json = JSON(data)
+            let representation = json.rawString()
+            print("json raw string: " + representation!)
+            
             ResponseHandler.setServerURL(host: ip as! String, port: port as! Int)
+            ResponseHandler.currentRoomName = room as! String
+            
             print("serverURL: " + ResponseHandler.getServerURL())
-            dismiss(animated: true, completion: nil)
+            dismiss(animated: true, completion: {() in
+                self.performSegue(withIdentifier: "inputSegue", sender: self)
+            })
         }
     }
     

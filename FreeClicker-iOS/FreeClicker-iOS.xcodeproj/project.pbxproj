@@ -20,6 +20,7 @@
 		49A0F1291DE12C7F00FC3B76 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49A0F1281DE12C7F00FC3B76 /* GoogleService-Info.plist */; };
 		49A0F12B1DE1359400FC3B76 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A0F12A1DE1359400FC3B76 /* Utilities.swift */; };
 		49B16ECC1DE17BDC00A9A5F7 /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B16ECB1DE17BDC00A9A5F7 /* ResponseHandler.swift */; };
+		49B16ECE1DE183F100A9A5F7 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B16ECD1DE183F100A9A5F7 /* InputViewController.swift */; };
 		DC2884A404AD04664F43806E /* Pods_FreeClicker_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7AF91DA2F5BFBFC473CB9E /* Pods_FreeClicker_iOSUITests.framework */; };
 		F83A07351521D6E67F34ABD7 /* Pods_FreeClicker_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC404FE56EE2657BA6147D /* Pods_FreeClicker_iOSTests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		49A0F1281DE12C7F00FC3B76 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		49A0F12A1DE1359400FC3B76 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		49B16ECB1DE17BDC00A9A5F7 /* ResponseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseHandler.swift; path = ../ResponseHandler.swift; sourceTree = "<group>"; };
+		49B16ECD1DE183F100A9A5F7 /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		5480EAA60BBBB9DC38CCB662 /* Pods-FreeClicker-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeClicker-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeClicker-iOS/Pods-FreeClicker-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		6767FA6A603E2AE9ED6F6852 /* Pods-FreeClicker-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeClicker-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeClicker-iOSTests/Pods-FreeClicker-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		74DC404FE56EE2657BA6147D /* Pods_FreeClicker_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeClicker_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +142,7 @@
 				494CB9B71DE119A600631F3D /* AppDelegate.swift */,
 				494CB9BB1DE119A600631F3D /* Main.storyboard */,
 				494CB9B91DE119A600631F3D /* ViewController.swift */,
+				49B16ECD1DE183F100A9A5F7 /* InputViewController.swift */,
 				494CB9E51DE11A5800631F3D /* AuthViewController.swift */,
 				49A0F1261DE129D400FC3B76 /* AuthenticationHandler.swift */,
 				49A0F12A1DE1359400FC3B76 /* Utilities.swift */,
@@ -455,6 +458,7 @@
 				49A0F1271DE129D400FC3B76 /* AuthenticationHandler.swift in Sources */,
 				494CB9BA1DE119A600631F3D /* ViewController.swift in Sources */,
 				494CB9E61DE11A5800631F3D /* AuthViewController.swift in Sources */,
+				49B16ECE1DE183F100A9A5F7 /* InputViewController.swift in Sources */,
 				49A0F12B1DE1359400FC3B76 /* Utilities.swift in Sources */,
 				494CB9B81DE119A600631F3D /* AppDelegate.swift in Sources */,
 				49B16ECC1DE17BDC00A9A5F7 /* ResponseHandler.swift in Sources */,

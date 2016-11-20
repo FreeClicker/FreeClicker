@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <style>
+      .chartContainer {
+        width: 80vw;
+        height: 80vh;
+        padding: 20vh, 20vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="chartContainer">
+      <canvas id="myChart" width="200" height="200"></canvas>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript">
+var ctx = document.getElementById("myChart");
+
+var data = {
+    labels: ["A", "B", "C", "D", "E"],
+    datasets: [
+        {
+            label: "Choices Per Answer",
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+            ],
+            borderColor: [
+                'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+            ],
+            borderWidth: 1,
+            data: [10,20,30,40,50]
+        }
+    ]
+};
+
+var myBarChart = new Chart(ctx, {
+  type: 'bar',
+  data: data,
+  options: {
+          scales: {
+              xAxes: [{
+                  stacked: true
+              }],
+              yAxes: [{
+                  stacked: true
+              }]
+          },
+          responsive: true,
+          maintainAspectRatio: true
+      }
+});
+/*
+setTimeout(function(){
+  console.log(myBarChart);
+  //myBarChart.config.data.datasets[0].data[2] = 69;
+  myBarChart.config.data.datasets[0].data = JSON.parse("[88,34,55,12,67]");
+  myBarChart.update();
+},3000);
+*/
+
+function updateBarChart() {
+  $.get("http://172.20.10.9:23381/results",function(data) {
+    if( data.length > 0 && data.charAt(0) === '[') {
+      myBarChart.config.data.datasets[0].data = JSON.parse(data);
+      myBarChart.update();
+      setTimeout(function(){
+        updateBarChart();
+      },1000);
+    }
+  });
+}
+
+updateBarChart();
+
+</script>
+  </body>
+</html>

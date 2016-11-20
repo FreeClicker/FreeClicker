@@ -184,16 +184,17 @@
                     <connections>
                         <outlet property="welcomeLabel" destination="juY-w8-sfJ" id="Brb-P8-Y3p"/>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="authSegue" id="aU4-Dz-BCB"/>
+                        <segue destination="uWf-hx-x5J" kind="presentation" identifier="inputSegue" id="ryG-B7-z6G"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fvN-WY-Kga" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="910" y="139"/>
         </scene>
-        <!--View Controller-->
+        <!--Input View Controller-->
         <scene sceneID="iE7-UW-cWp">
             <objects>
-                <viewController id="uWf-hx-x5J" sceneMemberID="viewController">
+                <viewController id="uWf-hx-x5J" customClass="InputViewController" customModule="FreeClicker_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5eS-G2-mxr"/>
                         <viewControllerLayoutGuide type="bottom" id="4H8-OT-cY9"/>
@@ -230,6 +231,9 @@
                                 <state key="normal" title="A">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="answerPressWithSender:" destination="uWf-hx-x5J" eventType="touchUpInside" id="rAc-mw-4xs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T1C-Mq-Y3l">
                                 <rect key="frame" x="16" y="220" width="343" height="54"/>
@@ -241,6 +245,9 @@
                                 <state key="normal" title="B">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="answerPressWithSender:" destination="uWf-hx-x5J" eventType="touchUpInside" id="y0J-We-DwM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hs-8F-k0K">
                                 <rect key="frame" x="16" y="282" width="343" height="54"/>
@@ -252,6 +259,9 @@
                                 <state key="normal" title="C">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="answerPressWithSender:" destination="uWf-hx-x5J" eventType="touchUpInside" id="dwC-aw-gsI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMf-5V-yBr">
                                 <rect key="frame" x="16" y="344" width="343" height="54"/>
@@ -263,6 +273,9 @@
                                 <state key="normal" title="D">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="answerPressWithSender:" destination="uWf-hx-x5J" eventType="touchUpInside" id="L1n-vK-IAf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6F1-gl-uX0">
                                 <rect key="frame" x="16" y="406" width="343" height="54"/>
@@ -274,6 +287,9 @@
                                 <state key="normal" title="E">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="answerPressWithSender:" destination="uWf-hx-x5J" eventType="touchUpInside" id="dPV-BM-ogr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6Y-Nr-dcU">
                                 <rect key="frame" x="16" y="468" width="343" height="54"/>
@@ -286,6 +302,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="leave:" destination="uWf-hx-x5J" eventType="touchUpInside" id="HKh-5e-ASM"/>
                                     <action selector="logOut:" destination="D3e-OY-Ymu" eventType="touchUpInside" id="CJt-tj-eat"/>
                                 </connections>
                             </button>
@@ -318,6 +335,10 @@
                             <constraint firstItem="e6J-B9-kJ0" firstAttribute="leading" secondItem="yI9-m5-pRv" secondAttribute="leadingMargin" id="rUf-KU-rO7"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="responseLabel" destination="1dm-4v-m1L" id="PlW-jo-kxa"/>
+                        <outlet property="titleLabel" destination="8QY-sB-Qub" id="tfk-Vu-HU7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kFv-e3-z2z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
