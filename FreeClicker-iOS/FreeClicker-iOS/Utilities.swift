@@ -11,10 +11,9 @@ import SwiftyJSON
 
 class Utilities: NSObject {
     
-    static let serverURL = "http://192.168.43.179:6969"
-    
-    class func performTextBasedRequestToServer(route: String, method: String, body: String, callback: @escaping (Data?, URLResponse?, NSError?) -> Void)
+    static func performTextBasedRequestToServer(route: String, method: String, body: String, callback: @escaping (Data?, URLResponse?, NSError?) -> Void)
     {
+        let serverURL = ResponseHandler.getServerURL()
         let url = URL(string: serverURL + route)
         let request:NSMutableURLRequest = NSMutableURLRequest(url: url!)
         request.httpMethod = method
@@ -34,8 +33,9 @@ class Utilities: NSObject {
         task.resume()
     }
     
-    class func performJSONBasedRequestToServer(route: String, method: String, JSON: JSON, callback: @escaping (Data?, URLResponse?, NSError?) -> Void)
+    static func performJSONBasedRequestToServer(route: String, method: String, JSON: JSON, callback: @escaping (Data?, URLResponse?, NSError?) -> Void)
     {
+        let serverURL = ResponseHandler.getServerURL()
         let url = URL(string: serverURL + route)
         let request:NSMutableURLRequest = NSMutableURLRequest(url: url!)
         request.httpMethod = method
@@ -55,7 +55,7 @@ class Utilities: NSObject {
         task.resume()
     }
     
-    class func getVisibleViewController(_ rootVC: UIViewController?) -> UIViewController? {
+    static func getVisibleViewController(_ rootVC: UIViewController?) -> UIViewController? {
         
         var rootViewController = rootVC
         if rootViewController == nil {
@@ -78,6 +78,17 @@ class Utilities: NSObject {
             }
             
             return getVisibleViewController(presented)
+        }
+        return nil
+    }
+    
+    static func convertStringToDictionary(text: String) -> [String:AnyObject]? {
+        if let data = text.data(using: String.Encoding.utf8) {
+            do {
+                return try JSONSerialization.jsonObject(with: data, options: []) as? [String:AnyObject]
+            } catch let error as NSError {
+                print(error)
+            }
         }
         return nil
     }
