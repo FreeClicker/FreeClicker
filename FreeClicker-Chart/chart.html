@@ -81,7 +81,7 @@ setTimeout(function(){
 */
 
 function updateBarChart() {
-  $.get("http://172.20.10.9:23381/results",function(data) {
+  $.get("http://172.20.10.9:65516/results",function(data) {
     if( data.length > 0 && data.charAt(0) === '[') {
       myBarChart.config.data.datasets[0].data = JSON.parse(data);
       myBarChart.update();

@@ -30,7 +30,7 @@ class InputViewController: UIViewController {
         if let user = FIRAuth.auth()?.currentUser {
             ResponseHandler.submitResponse(letter: (sender.titleLabel?.text)!, user: user, callback: { response in
                 if(response != nil) {
-                    print("pooperoni: " + response!)
+                    print("res: " + response!)
                     if(response?.contains("success"))! == true {
                         DispatchQueue.main.async {
                             self.responseLabel.text = "Answer successfully submitted as " + (sender.titleLabel?.text)! + "."
