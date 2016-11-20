@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22B5E9BD67F67A76A7413FDF /* Pods_FreeClicker_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CE5617F3F9566FC3BA0A10 /* Pods_FreeClicker_iOS.framework */; };
 		494CB9B81DE119A600631F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CB9B71DE119A600631F3D /* AppDelegate.swift */; };
 		494CB9BA1DE119A600631F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CB9B91DE119A600631F3D /* ViewController.swift */; };
 		494CB9BD1DE119A600631F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494CB9BB1DE119A600631F3D /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		494CB9C21DE119A600631F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494CB9C01DE119A600631F3D /* LaunchScreen.storyboard */; };
 		494CB9CD1DE119A600631F3D /* FreeClicker_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CB9CC1DE119A600631F3D /* FreeClicker_iOSTests.swift */; };
 		494CB9D81DE119A600631F3D /* FreeClicker_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CB9D71DE119A600631F3D /* FreeClicker_iOSUITests.swift */; };
+		494CB9E61DE11A5800631F3D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CB9E51DE11A5800631F3D /* AuthViewController.swift */; };
+		49A0F1271DE129D400FC3B76 /* AuthenticationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A0F1261DE129D400FC3B76 /* AuthenticationHandler.swift */; };
+		49A0F1291DE12C7F00FC3B76 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49A0F1281DE12C7F00FC3B76 /* GoogleService-Info.plist */; };
+		49A0F12B1DE1359400FC3B76 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A0F12A1DE1359400FC3B76 /* Utilities.swift */; };
+		DC2884A404AD04664F43806E /* Pods_FreeClicker_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7AF91DA2F5BFBFC473CB9E /* Pods_FreeClicker_iOSUITests.framework */; };
+		F83A07351521D6E67F34ABD7 /* Pods_FreeClicker_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC404FE56EE2657BA6147D /* Pods_FreeClicker_iOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,19 @@
 		494CB9D31DE119A600631F3D /* FreeClicker-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FreeClicker-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		494CB9D71DE119A600631F3D /* FreeClicker_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeClicker_iOSUITests.swift; sourceTree = "<group>"; };
 		494CB9D91DE119A600631F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494CB9E51DE11A5800631F3D /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		49A0F1261DE129D400FC3B76 /* AuthenticationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationHandler.swift; sourceTree = "<group>"; };
+		49A0F1281DE12C7F00FC3B76 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		49A0F12A1DE1359400FC3B76 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		5480EAA60BBBB9DC38CCB662 /* Pods-FreeClicker-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeClicker-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeClicker-iOS/Pods-FreeClicker-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6767FA6A603E2AE9ED6F6852 /* Pods-FreeClicker-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeClicker-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeClicker-iOSTests/Pods-FreeClicker-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		74DC404FE56EE2657BA6147D /* Pods_FreeClicker_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeClicker_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8502047433CCDE81CFAB572B /* Pods-FreeClicker-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeClicker-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeClicker-iOS/Pods-FreeClicker-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		8E6E23CE75185E865CA3F9AF /* Pods-FreeClicker-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeClicker-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeClicker-iOSUITests/Pods-FreeClicker-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9F7AF91DA2F5BFBFC473CB9E /* Pods_FreeClicker_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeClicker_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC859C25F513652F3B9FF0E /* Pods-FreeClicker-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeClicker-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeClicker-iOSTests/Pods-FreeClicker-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B935CAB4BA6DF71B0605A71E /* Pods-FreeClicker-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeClicker-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeClicker-iOSUITests/Pods-FreeClicker-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4CE5617F3F9566FC3BA0A10 /* Pods_FreeClicker_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeClicker_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B5E9BD67F67A76A7413FDF /* Pods_FreeClicker_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F83A07351521D6E67F34ABD7 /* Pods_FreeClicker_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC2884A404AD04664F43806E /* Pods_FreeClicker_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29F7DF2FAC0ACB9FF511C12D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5480EAA60BBBB9DC38CCB662 /* Pods-FreeClicker-iOS.debug.xcconfig */,
+				8502047433CCDE81CFAB572B /* Pods-FreeClicker-iOS.release.xcconfig */,
+				AAC859C25F513652F3B9FF0E /* Pods-FreeClicker-iOSTests.debug.xcconfig */,
+				6767FA6A603E2AE9ED6F6852 /* Pods-FreeClicker-iOSTests.release.xcconfig */,
+				B935CAB4BA6DF71B0605A71E /* Pods-FreeClicker-iOSUITests.debug.xcconfig */,
+				8E6E23CE75185E865CA3F9AF /* Pods-FreeClicker-iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		494CB9AB1DE119A500631F3D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +117,8 @@
 				494CB9CB1DE119A600631F3D /* FreeClicker-iOSTests */,
 				494CB9D61DE119A600631F3D /* FreeClicker-iOSUITests */,
 				494CB9B51DE119A600631F3D /* Products */,
+				29F7DF2FAC0ACB9FF511C12D /* Pods */,
+				646D4018E392DC72EED1FCFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +136,15 @@
 			isa = PBXGroup;
 			children = (
 				494CB9B71DE119A600631F3D /* AppDelegate.swift */,
-				494CB9B91DE119A600631F3D /* ViewController.swift */,
 				494CB9BB1DE119A600631F3D /* Main.storyboard */,
+				494CB9B91DE119A600631F3D /* ViewController.swift */,
+				494CB9E51DE11A5800631F3D /* AuthViewController.swift */,
+				49A0F1261DE129D400FC3B76 /* AuthenticationHandler.swift */,
+				49A0F12A1DE1359400FC3B76 /* Utilities.swift */,
 				494CB9BE1DE119A600631F3D /* Assets.xcassets */,
 				494CB9C01DE119A600631F3D /* LaunchScreen.storyboard */,
 				494CB9C31DE119A600631F3D /* Info.plist */,
+				49A0F1281DE12C7F00FC3B76 /* GoogleService-Info.plist */,
 			);
 			path = "FreeClicker-iOS";
 			sourceTree = "<group>";
@@ -125,6 +167,16 @@
 			path = "FreeClicker-iOSUITests";
 			sourceTree = "<group>";
 		};
+		646D4018E392DC72EED1FCFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4CE5617F3F9566FC3BA0A10 /* Pods_FreeClicker_iOS.framework */,
+				74DC404FE56EE2657BA6147D /* Pods_FreeClicker_iOSTests.framework */,
+				9F7AF91DA2F5BFBFC473CB9E /* Pods_FreeClicker_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 494CB9DC1DE119A600631F3D /* Build configuration list for PBXNativeTarget "FreeClicker-iOS" */;
 			buildPhases = (
+				A632E5352E9470B527A1831E /* [CP] Check Pods Manifest.lock */,
 				494CB9B01DE119A500631F3D /* Sources */,
 				494CB9B11DE119A500631F3D /* Frameworks */,
 				494CB9B21DE119A500631F3D /* Resources */,
+				684D9C651671418CC7D8C086 /* [CP] Embed Pods Frameworks */,
+				5B3EB162D25A05AE46A01839 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 494CB9DF1DE119A600631F3D /* Build configuration list for PBXNativeTarget "FreeClicker-iOSTests" */;
 			buildPhases = (
+				CF28791827ECDA898868E1B6 /* [CP] Check Pods Manifest.lock */,
 				494CB9C41DE119A600631F3D /* Sources */,
 				494CB9C51DE119A600631F3D /* Frameworks */,
 				494CB9C61DE119A600631F3D /* Resources */,
+				54C22E3D50A04CAF151396A9 /* [CP] Embed Pods Frameworks */,
+				C51AC078AB09B7F666B68108 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 494CB9E21DE119A600631F3D /* Build configuration list for PBXNativeTarget "FreeClicker-iOSUITests" */;
 			buildPhases = (
+				D9474EAE863BEE2AF3E0761F /* [CP] Check Pods Manifest.lock */,
 				494CB9CF1DE119A600631F3D /* Sources */,
 				494CB9D01DE119A600631F3D /* Frameworks */,
 				494CB9D11DE119A600631F3D /* Resources */,
+				D17A9EAF4E4078CAAC23E06D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,17 +254,20 @@
 					494CB9B31DE119A500631F3D = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = NJKXF7XV99;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					494CB9C71DE119A600631F3D = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = NJKXF7XV99;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 494CB9B31DE119A500631F3D;
 					};
 					494CB9D21DE119A600631F3D = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = NJKXF7XV99;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 494CB9B31DE119A500631F3D;
 					};
@@ -236,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				494CB9C21DE119A600631F3D /* LaunchScreen.storyboard in Resources */,
+				49A0F1291DE12C7F00FC3B76 /* GoogleService-Info.plist in Resources */,
 				494CB9BF1DE119A600631F3D /* Assets.xcassets in Resources */,
 				494CB9BD1DE119A600631F3D /* Main.storyboard in Resources */,
 			);
@@ -257,12 +321,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54C22E3D50A04CAF151396A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeClicker-iOSTests/Pods-FreeClicker-iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B3EB162D25A05AE46A01839 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeClicker-iOS/Pods-FreeClicker-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		684D9C651671418CC7D8C086 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeClicker-iOS/Pods-FreeClicker-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A632E5352E9470B527A1831E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C51AC078AB09B7F666B68108 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeClicker-iOSTests/Pods-FreeClicker-iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF28791827ECDA898868E1B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D17A9EAF4E4078CAAC23E06D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeClicker-iOSUITests/Pods-FreeClicker-iOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9474EAE863BEE2AF3E0761F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		494CB9B01DE119A500631F3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A0F1271DE129D400FC3B76 /* AuthenticationHandler.swift in Sources */,
 				494CB9BA1DE119A600631F3D /* ViewController.swift in Sources */,
+				494CB9E61DE11A5800631F3D /* AuthViewController.swift in Sources */,
+				49A0F12B1DE1359400FC3B76 /* Utilities.swift in Sources */,
 				494CB9B81DE119A600631F3D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +601,7 @@
 		};
 		494CB9DD1DE119A600631F3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5480EAA60BBBB9DC38CCB662 /* Pods-FreeClicker-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NJKXF7XV99;
@@ -424,6 +615,7 @@
 		};
 		494CB9DE1DE119A600631F3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8502047433CCDE81CFAB572B /* Pods-FreeClicker-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NJKXF7XV99;
@@ -437,6 +629,7 @@
 		};
 		494CB9E01DE119A600631F3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC859C25F513652F3B9FF0E /* Pods-FreeClicker-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +645,7 @@
 		};
 		494CB9E11DE119A600631F3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6767FA6A603E2AE9ED6F6852 /* Pods-FreeClicker-iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +661,7 @@
 		};
 		494CB9E31DE119A600631F3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B935CAB4BA6DF71B0605A71E /* Pods-FreeClicker-iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = NJKXF7XV99;
@@ -481,6 +676,7 @@
 		};
 		494CB9E41DE119A600631F3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6E23CE75185E865CA3F9AF /* Pods-FreeClicker-iOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = NJKXF7XV99;
@@ -512,6 +708,7 @@
 				494CB9DE1DE119A600631F3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		494CB9DF1DE119A600631F3D /* Build configuration list for PBXNativeTarget "FreeClicker-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +717,7 @@
 				494CB9E11DE119A600631F3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		494CB9E21DE119A600631F3D /* Build configuration list for PBXNativeTarget "FreeClicker-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +726,7 @@
 				494CB9E41DE119A600631F3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
